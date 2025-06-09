@@ -1,0 +1,12 @@
+.arrow-back-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.arrow-back-text {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+}

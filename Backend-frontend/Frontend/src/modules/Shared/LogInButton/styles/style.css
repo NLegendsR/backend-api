@@ -1,0 +1,32 @@
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+.login-button {
+  width: 364px;
+  height: 64px;
+  background-color: #0d0d0d;
+  font-size: 20px;
+  color: #fff;
+  padding: 18px 0;
+  font-weight: 700;
+}
+
+@media (max-width: 820px) {
+  .login-button {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 720px) {
+  .login-button {
+    width: 50%;
+  }
+}
+
+/* @media (max-width: 480px) {
+  .login-button {
+    width: 100%;
+  }
+} */

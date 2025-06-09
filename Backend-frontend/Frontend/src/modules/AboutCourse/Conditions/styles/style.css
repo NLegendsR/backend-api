@@ -1,0 +1,92 @@
+.condition-full-width {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#conditions-section-wrapper {
+  padding: 0 0px 130px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.h2-conditions-text {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.conditions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 593px;
+}
+
+.list-points {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.gap-container {
+  height: 100%;
+}
+
+.point-restangle-container {
+  position: relative;
+  height: 28px;
+  width: 28px;
+  top: 0;
+  left: 0;
+}
+
+.point-restangle {
+  background-color: rgb(250 111 53 / 30%);
+  height: 28px;
+  width: 28px;
+  border-radius: 5.6px;
+  position: absolute;
+}
+
+.point-text {
+  font-size: 20px;
+}
+
+.b2-bold {
+  font-weight: bold;
+  color: rgb(250 111 53 / 100%);
+}
+
+@media (max-width: 1024px) {
+  .conditions-section-wrapper {
+    gap: 280px;
+  }
+}
+
+@media (max-width: 820px) {
+  #conditions-section-wrapper {
+    padding: 0 0 130px;
+    gap: 200px;
+  }
+  .point-text {
+    font-size: 18px;
+  }
+  .h2-conditions-text {
+    font-size: 26px;
+    font-weight: 900;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #conditions-section-wrapper {
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    padding: 0px 0px 40px;
+  }
+  .conditions-list {
+    width: 100%;
+  }
+}

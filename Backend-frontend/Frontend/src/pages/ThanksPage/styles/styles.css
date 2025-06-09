@@ -1,0 +1,10 @@
+.thanks-page-wrapper {
+  width: 100%;
+  padding: 0 90px;
+}
+
+@media (width <= 768px) {
+  .thanks-page-wrapper {
+    padding: 0 20px;
+  }
+}

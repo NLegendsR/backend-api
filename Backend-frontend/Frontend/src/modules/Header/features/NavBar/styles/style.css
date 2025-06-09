@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  gap: 56px;
+  list-style: none;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.navbar a {
+  position: relative;
+  padding: 8px 0;
+  transition:
+    color 0.3s,
+    background-color 0.3s;
+  text-decoration: none;
+}
+
+.navbar a.active::after {
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 50px;
+  height: 2px;
+  transition: width 0.3s;
+  background-color: #000;
+  content: '';
+  transform: translateX(-50%);
+}
+
+@media (width <= 1024px) {
+  .burger-menu {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+  }
+}
