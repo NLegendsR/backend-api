@@ -30,5 +30,7 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Сервер запущен на http://localhost:${PORT}`);
+  console.log(`Сервер запущен на порту ${PORT}`);
+  console.log(`Пример публичной ссылки: https://backend-api-1.onrender.com/api/hello`);
 });
+
